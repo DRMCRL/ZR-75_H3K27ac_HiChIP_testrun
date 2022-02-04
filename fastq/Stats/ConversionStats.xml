@@ -1,0 +1,3005 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stats>
+  <Flowcell flowcell-id="000000000-GB6P6">
+    <Project name="SAGCQA0256_GeriLavenLaw_02122021">
+      <Sample name="21-01774">
+        <Barcode name="CGATGT">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>91733</ClusterCount>
+                <Read number="1">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13554401</YieldQ30>
+                  <QualityScoreSum>523569718</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13173202</YieldQ30>
+                  <QualityScoreSum>512527762</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>91733</ClusterCount>
+                <Read number="1">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13554401</YieldQ30>
+                  <QualityScoreSum>523569718</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13173202</YieldQ30>
+                  <QualityScoreSum>512527762</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>86795</ClusterCount>
+                <Read number="1">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12756265</YieldQ30>
+                  <QualityScoreSum>492710066</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12231445</YieldQ30>
+                  <QualityScoreSum>477655503</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86795</ClusterCount>
+                <Read number="1">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12756265</YieldQ30>
+                  <QualityScoreSum>492710066</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12231445</YieldQ30>
+                  <QualityScoreSum>477655503</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>82217</ClusterCount>
+                <Read number="1">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>12178443</YieldQ30>
+                  <QualityScoreSum>469795615</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>11542096</YieldQ30>
+                  <QualityScoreSum>451012605</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>82217</ClusterCount>
+                <Read number="1">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>12178443</YieldQ30>
+                  <QualityScoreSum>469795615</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>11542096</YieldQ30>
+                  <QualityScoreSum>451012605</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>85347</ClusterCount>
+                <Read number="1">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>12607159</YieldQ30>
+                  <QualityScoreSum>486616232</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>11811220</YieldQ30>
+                  <QualityScoreSum>463589553</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>85347</ClusterCount>
+                <Read number="1">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>12607159</YieldQ30>
+                  <QualityScoreSum>486616232</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>11811220</YieldQ30>
+                  <QualityScoreSum>463589553</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>89740</ClusterCount>
+                <Read number="1">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>13266635</YieldQ30>
+                  <QualityScoreSum>512412083</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>12795956</YieldQ30>
+                  <QualityScoreSum>499090208</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>89740</ClusterCount>
+                <Read number="1">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>13266635</YieldQ30>
+                  <QualityScoreSum>512412083</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>12795956</YieldQ30>
+                  <QualityScoreSum>499090208</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>86142</ClusterCount>
+                <Read number="1">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12672122</YieldQ30>
+                  <QualityScoreSum>489315466</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12019752</YieldQ30>
+                  <QualityScoreSum>470904444</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86142</ClusterCount>
+                <Read number="1">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12672122</YieldQ30>
+                  <QualityScoreSum>489315466</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12019752</YieldQ30>
+                  <QualityScoreSum>470904444</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>82398</ClusterCount>
+                <Read number="1">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>12203228</YieldQ30>
+                  <QualityScoreSum>470688849</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>11480628</YieldQ30>
+                  <QualityScoreSum>449506514</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>82398</ClusterCount>
+                <Read number="1">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>12203228</YieldQ30>
+                  <QualityScoreSum>470688849</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>11480628</YieldQ30>
+                  <QualityScoreSum>449506514</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>86242</ClusterCount>
+                <Read number="1">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>12746256</YieldQ30>
+                  <QualityScoreSum>491802791</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>11826645</YieldQ30>
+                  <QualityScoreSum>465942175</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86242</ClusterCount>
+                <Read number="1">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>12746256</YieldQ30>
+                  <QualityScoreSum>491802791</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>11826645</YieldQ30>
+                  <QualityScoreSum>465942175</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>91733</ClusterCount>
+                <Read number="1">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13554401</YieldQ30>
+                  <QualityScoreSum>523569718</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13173202</YieldQ30>
+                  <QualityScoreSum>512527762</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>91733</ClusterCount>
+                <Read number="1">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13554401</YieldQ30>
+                  <QualityScoreSum>523569718</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13851683</Yield>
+                  <YieldQ30>13173202</YieldQ30>
+                  <QualityScoreSum>512527762</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>86795</ClusterCount>
+                <Read number="1">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12756265</YieldQ30>
+                  <QualityScoreSum>492710066</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12231445</YieldQ30>
+                  <QualityScoreSum>477655503</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86795</ClusterCount>
+                <Read number="1">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12756265</YieldQ30>
+                  <QualityScoreSum>492710066</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13106045</Yield>
+                  <YieldQ30>12231445</YieldQ30>
+                  <QualityScoreSum>477655503</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>82217</ClusterCount>
+                <Read number="1">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>12178443</YieldQ30>
+                  <QualityScoreSum>469795615</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>11542096</YieldQ30>
+                  <QualityScoreSum>451012605</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>82217</ClusterCount>
+                <Read number="1">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>12178443</YieldQ30>
+                  <QualityScoreSum>469795615</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12414767</Yield>
+                  <YieldQ30>11542096</YieldQ30>
+                  <QualityScoreSum>451012605</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>85347</ClusterCount>
+                <Read number="1">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>12607159</YieldQ30>
+                  <QualityScoreSum>486616232</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>11811220</YieldQ30>
+                  <QualityScoreSum>463589553</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>85347</ClusterCount>
+                <Read number="1">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>12607159</YieldQ30>
+                  <QualityScoreSum>486616232</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12887397</Yield>
+                  <YieldQ30>11811220</YieldQ30>
+                  <QualityScoreSum>463589553</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>89740</ClusterCount>
+                <Read number="1">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>13266635</YieldQ30>
+                  <QualityScoreSum>512412083</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>12795956</YieldQ30>
+                  <QualityScoreSum>499090208</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>89740</ClusterCount>
+                <Read number="1">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>13266635</YieldQ30>
+                  <QualityScoreSum>512412083</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13550740</Yield>
+                  <YieldQ30>12795956</YieldQ30>
+                  <QualityScoreSum>499090208</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>86142</ClusterCount>
+                <Read number="1">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12672122</YieldQ30>
+                  <QualityScoreSum>489315466</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12019752</YieldQ30>
+                  <QualityScoreSum>470904444</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86142</ClusterCount>
+                <Read number="1">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12672122</YieldQ30>
+                  <QualityScoreSum>489315466</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13007442</Yield>
+                  <YieldQ30>12019752</YieldQ30>
+                  <QualityScoreSum>470904444</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>82398</ClusterCount>
+                <Read number="1">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>12203228</YieldQ30>
+                  <QualityScoreSum>470688849</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>11480628</YieldQ30>
+                  <QualityScoreSum>449506514</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>82398</ClusterCount>
+                <Read number="1">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>12203228</YieldQ30>
+                  <QualityScoreSum>470688849</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12442098</Yield>
+                  <YieldQ30>11480628</YieldQ30>
+                  <QualityScoreSum>449506514</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>86242</ClusterCount>
+                <Read number="1">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>12746256</YieldQ30>
+                  <QualityScoreSum>491802791</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>11826645</YieldQ30>
+                  <QualityScoreSum>465942175</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>86242</ClusterCount>
+                <Read number="1">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>12746256</YieldQ30>
+                  <QualityScoreSum>491802791</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>13022542</Yield>
+                  <YieldQ30>11826645</YieldQ30>
+                  <QualityScoreSum>465942175</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+      <Sample name="21-01775">
+        <Barcode name="TGACCA">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>75091</ClusterCount>
+                <Read number="1">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>11092874</YieldQ30>
+                  <QualityScoreSum>428484563</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>10760815</YieldQ30>
+                  <QualityScoreSum>419117434</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75091</ClusterCount>
+                <Read number="1">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>11092874</YieldQ30>
+                  <QualityScoreSum>428484563</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>10760815</YieldQ30>
+                  <QualityScoreSum>419117434</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>71008</ClusterCount>
+                <Read number="1">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>10435592</YieldQ30>
+                  <QualityScoreSum>403080277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>9997153</YieldQ30>
+                  <QualityScoreSum>390720659</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71008</ClusterCount>
+                <Read number="1">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>10435592</YieldQ30>
+                  <QualityScoreSum>403080277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>9997153</YieldQ30>
+                  <QualityScoreSum>390720659</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>66898</ClusterCount>
+                <Read number="1">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9904969</YieldQ30>
+                  <QualityScoreSum>382165238</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9382161</YieldQ30>
+                  <QualityScoreSum>366855568</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>66898</ClusterCount>
+                <Read number="1">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9904969</YieldQ30>
+                  <QualityScoreSum>382165238</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9382161</YieldQ30>
+                  <QualityScoreSum>366855568</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>70208</ClusterCount>
+                <Read number="1">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>10371357</YieldQ30>
+                  <QualityScoreSum>400286747</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>9704281</YieldQ30>
+                  <QualityScoreSum>381306189</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>70208</ClusterCount>
+                <Read number="1">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>10371357</YieldQ30>
+                  <QualityScoreSum>400286747</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>9704281</YieldQ30>
+                  <QualityScoreSum>381306189</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>74094</ClusterCount>
+                <Read number="1">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10952101</YieldQ30>
+                  <QualityScoreSum>423016368</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10543362</YieldQ30>
+                  <QualityScoreSum>411633280</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>74094</ClusterCount>
+                <Read number="1">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10952101</YieldQ30>
+                  <QualityScoreSum>423016368</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10543362</YieldQ30>
+                  <QualityScoreSum>411633280</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>71800</ClusterCount>
+                <Read number="1">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10553016</YieldQ30>
+                  <QualityScoreSum>407571251</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10018799</YieldQ30>
+                  <QualityScoreSum>392651572</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71800</ClusterCount>
+                <Read number="1">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10553016</YieldQ30>
+                  <QualityScoreSum>407571251</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10018799</YieldQ30>
+                  <QualityScoreSum>392651572</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>68008</ClusterCount>
+                <Read number="1">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>10068456</YieldQ30>
+                  <QualityScoreSum>388414782</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>9487295</YieldQ30>
+                  <QualityScoreSum>371455469</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>68008</ClusterCount>
+                <Read number="1">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>10068456</YieldQ30>
+                  <QualityScoreSum>388414782</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>9487295</YieldQ30>
+                  <QualityScoreSum>371455469</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>70811</ClusterCount>
+                <Read number="1">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>10461368</YieldQ30>
+                  <QualityScoreSum>403643739</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>9708464</YieldQ30>
+                  <QualityScoreSum>382677831</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>70811</ClusterCount>
+                <Read number="1">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>10461368</YieldQ30>
+                  <QualityScoreSum>403643739</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>9708464</YieldQ30>
+                  <QualityScoreSum>382677831</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>75091</ClusterCount>
+                <Read number="1">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>11092874</YieldQ30>
+                  <QualityScoreSum>428484563</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>10760815</YieldQ30>
+                  <QualityScoreSum>419117434</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75091</ClusterCount>
+                <Read number="1">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>11092874</YieldQ30>
+                  <QualityScoreSum>428484563</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11338741</Yield>
+                  <YieldQ30>10760815</YieldQ30>
+                  <QualityScoreSum>419117434</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>71008</ClusterCount>
+                <Read number="1">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>10435592</YieldQ30>
+                  <QualityScoreSum>403080277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>9997153</YieldQ30>
+                  <QualityScoreSum>390720659</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71008</ClusterCount>
+                <Read number="1">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>10435592</YieldQ30>
+                  <QualityScoreSum>403080277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10722208</Yield>
+                  <YieldQ30>9997153</YieldQ30>
+                  <QualityScoreSum>390720659</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>66898</ClusterCount>
+                <Read number="1">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9904969</YieldQ30>
+                  <QualityScoreSum>382165238</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9382161</YieldQ30>
+                  <QualityScoreSum>366855568</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>66898</ClusterCount>
+                <Read number="1">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9904969</YieldQ30>
+                  <QualityScoreSum>382165238</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10101598</Yield>
+                  <YieldQ30>9382161</YieldQ30>
+                  <QualityScoreSum>366855568</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>70208</ClusterCount>
+                <Read number="1">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>10371357</YieldQ30>
+                  <QualityScoreSum>400286747</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>9704281</YieldQ30>
+                  <QualityScoreSum>381306189</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>70208</ClusterCount>
+                <Read number="1">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>10371357</YieldQ30>
+                  <QualityScoreSum>400286747</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10601408</Yield>
+                  <YieldQ30>9704281</YieldQ30>
+                  <QualityScoreSum>381306189</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>74094</ClusterCount>
+                <Read number="1">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10952101</YieldQ30>
+                  <QualityScoreSum>423016368</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10543362</YieldQ30>
+                  <QualityScoreSum>411633280</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>74094</ClusterCount>
+                <Read number="1">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10952101</YieldQ30>
+                  <QualityScoreSum>423016368</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11188194</Yield>
+                  <YieldQ30>10543362</YieldQ30>
+                  <QualityScoreSum>411633280</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>71800</ClusterCount>
+                <Read number="1">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10553016</YieldQ30>
+                  <QualityScoreSum>407571251</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10018799</YieldQ30>
+                  <QualityScoreSum>392651572</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71800</ClusterCount>
+                <Read number="1">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10553016</YieldQ30>
+                  <QualityScoreSum>407571251</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10841800</Yield>
+                  <YieldQ30>10018799</YieldQ30>
+                  <QualityScoreSum>392651572</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>68008</ClusterCount>
+                <Read number="1">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>10068456</YieldQ30>
+                  <QualityScoreSum>388414782</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>9487295</YieldQ30>
+                  <QualityScoreSum>371455469</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>68008</ClusterCount>
+                <Read number="1">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>10068456</YieldQ30>
+                  <QualityScoreSum>388414782</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10269208</Yield>
+                  <YieldQ30>9487295</YieldQ30>
+                  <QualityScoreSum>371455469</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>70811</ClusterCount>
+                <Read number="1">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>10461368</YieldQ30>
+                  <QualityScoreSum>403643739</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>9708464</YieldQ30>
+                  <QualityScoreSum>382677831</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>70811</ClusterCount>
+                <Read number="1">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>10461368</YieldQ30>
+                  <QualityScoreSum>403643739</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10692461</Yield>
+                  <YieldQ30>9708464</YieldQ30>
+                  <QualityScoreSum>382677831</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+      <Sample name="21-01776">
+        <Barcode name="ACAGTG">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>79958</ClusterCount>
+                <Read number="1">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11814493</YieldQ30>
+                  <QualityScoreSum>456405443</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11468982</YieldQ30>
+                  <QualityScoreSum>446489481</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>79958</ClusterCount>
+                <Read number="1">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11814493</YieldQ30>
+                  <QualityScoreSum>456405443</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11468982</YieldQ30>
+                  <QualityScoreSum>446489481</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>75373</ClusterCount>
+                <Read number="1">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>11083453</YieldQ30>
+                  <QualityScoreSum>428082137</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>10638060</YieldQ30>
+                  <QualityScoreSum>415324324</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75373</ClusterCount>
+                <Read number="1">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>11083453</YieldQ30>
+                  <QualityScoreSum>428082137</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>10638060</YieldQ30>
+                  <QualityScoreSum>415324324</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>71080</ClusterCount>
+                <Read number="1">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>10525876</YieldQ30>
+                  <QualityScoreSum>406167263</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>9995868</YieldQ30>
+                  <QualityScoreSum>390433242</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71080</ClusterCount>
+                <Read number="1">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>10525876</YieldQ30>
+                  <QualityScoreSum>406167263</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>9995868</YieldQ30>
+                  <QualityScoreSum>390433242</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>74168</ClusterCount>
+                <Read number="1">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10956717</YieldQ30>
+                  <QualityScoreSum>423021375</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10277854</YieldQ30>
+                  <QualityScoreSum>403412255</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>74168</ClusterCount>
+                <Read number="1">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10956717</YieldQ30>
+                  <QualityScoreSum>423021375</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10277854</YieldQ30>
+                  <QualityScoreSum>403412255</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>78274</ClusterCount>
+                <Read number="1">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11571859</YieldQ30>
+                  <QualityScoreSum>447055568</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11156821</YieldQ30>
+                  <QualityScoreSum>435321732</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>78274</ClusterCount>
+                <Read number="1">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11571859</YieldQ30>
+                  <QualityScoreSum>447055568</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11156821</YieldQ30>
+                  <QualityScoreSum>435321732</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>75590</ClusterCount>
+                <Read number="1">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>11116956</YieldQ30>
+                  <QualityScoreSum>429335925</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>10554090</YieldQ30>
+                  <QualityScoreSum>413506105</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75590</ClusterCount>
+                <Read number="1">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>11116956</YieldQ30>
+                  <QualityScoreSum>429335925</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>10554090</YieldQ30>
+                  <QualityScoreSum>413506105</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>71605</ClusterCount>
+                <Read number="1">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>10603705</YieldQ30>
+                  <QualityScoreSum>409083277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>9991561</YieldQ30>
+                  <QualityScoreSum>391150065</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71605</ClusterCount>
+                <Read number="1">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>10603705</YieldQ30>
+                  <QualityScoreSum>409083277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>9991561</YieldQ30>
+                  <QualityScoreSum>391150065</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>75294</ClusterCount>
+                <Read number="1">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>11129868</YieldQ30>
+                  <QualityScoreSum>429487777</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>10360485</YieldQ30>
+                  <QualityScoreSum>407810153</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75294</ClusterCount>
+                <Read number="1">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>11129868</YieldQ30>
+                  <QualityScoreSum>429487777</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>10360485</YieldQ30>
+                  <QualityScoreSum>407810153</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>79958</ClusterCount>
+                <Read number="1">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11814493</YieldQ30>
+                  <QualityScoreSum>456405443</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11468982</YieldQ30>
+                  <QualityScoreSum>446489481</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>79958</ClusterCount>
+                <Read number="1">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11814493</YieldQ30>
+                  <QualityScoreSum>456405443</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12073658</Yield>
+                  <YieldQ30>11468982</YieldQ30>
+                  <QualityScoreSum>446489481</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>75373</ClusterCount>
+                <Read number="1">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>11083453</YieldQ30>
+                  <QualityScoreSum>428082137</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>10638060</YieldQ30>
+                  <QualityScoreSum>415324324</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75373</ClusterCount>
+                <Read number="1">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>11083453</YieldQ30>
+                  <QualityScoreSum>428082137</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11381323</Yield>
+                  <YieldQ30>10638060</YieldQ30>
+                  <QualityScoreSum>415324324</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>71080</ClusterCount>
+                <Read number="1">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>10525876</YieldQ30>
+                  <QualityScoreSum>406167263</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>9995868</YieldQ30>
+                  <QualityScoreSum>390433242</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71080</ClusterCount>
+                <Read number="1">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>10525876</YieldQ30>
+                  <QualityScoreSum>406167263</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10733080</Yield>
+                  <YieldQ30>9995868</YieldQ30>
+                  <QualityScoreSum>390433242</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>74168</ClusterCount>
+                <Read number="1">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10956717</YieldQ30>
+                  <QualityScoreSum>423021375</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10277854</YieldQ30>
+                  <QualityScoreSum>403412255</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>74168</ClusterCount>
+                <Read number="1">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10956717</YieldQ30>
+                  <QualityScoreSum>423021375</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11199368</Yield>
+                  <YieldQ30>10277854</YieldQ30>
+                  <QualityScoreSum>403412255</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>78274</ClusterCount>
+                <Read number="1">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11571859</YieldQ30>
+                  <QualityScoreSum>447055568</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11156821</YieldQ30>
+                  <QualityScoreSum>435321732</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>78274</ClusterCount>
+                <Read number="1">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11571859</YieldQ30>
+                  <QualityScoreSum>447055568</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11819374</Yield>
+                  <YieldQ30>11156821</YieldQ30>
+                  <QualityScoreSum>435321732</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>75590</ClusterCount>
+                <Read number="1">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>11116956</YieldQ30>
+                  <QualityScoreSum>429335925</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>10554090</YieldQ30>
+                  <QualityScoreSum>413506105</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75590</ClusterCount>
+                <Read number="1">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>11116956</YieldQ30>
+                  <QualityScoreSum>429335925</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11414090</Yield>
+                  <YieldQ30>10554090</YieldQ30>
+                  <QualityScoreSum>413506105</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>71605</ClusterCount>
+                <Read number="1">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>10603705</YieldQ30>
+                  <QualityScoreSum>409083277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>9991561</YieldQ30>
+                  <QualityScoreSum>391150065</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>71605</ClusterCount>
+                <Read number="1">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>10603705</YieldQ30>
+                  <QualityScoreSum>409083277</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>10812355</Yield>
+                  <YieldQ30>9991561</YieldQ30>
+                  <QualityScoreSum>391150065</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>75294</ClusterCount>
+                <Read number="1">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>11129868</YieldQ30>
+                  <QualityScoreSum>429487777</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>10360485</YieldQ30>
+                  <QualityScoreSum>407810153</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75294</ClusterCount>
+                <Read number="1">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>11129868</YieldQ30>
+                  <QualityScoreSum>429487777</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11369394</Yield>
+                  <YieldQ30>10360485</YieldQ30>
+                  <QualityScoreSum>407810153</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+      <Sample name="21-01777">
+        <Barcode name="GCCAAT">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>84745</ClusterCount>
+                <Read number="1">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12534438</YieldQ30>
+                  <QualityScoreSum>484173446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12184316</YieldQ30>
+                  <QualityScoreSum>474252983</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>84745</ClusterCount>
+                <Read number="1">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12534438</YieldQ30>
+                  <QualityScoreSum>484173446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12184316</YieldQ30>
+                  <QualityScoreSum>474252983</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>80166</ClusterCount>
+                <Read number="1">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11792344</YieldQ30>
+                  <QualityScoreSum>455501218</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11337653</YieldQ30>
+                  <QualityScoreSum>442651520</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80166</ClusterCount>
+                <Read number="1">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11792344</YieldQ30>
+                  <QualityScoreSum>455501218</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11337653</YieldQ30>
+                  <QualityScoreSum>442651520</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>75746</ClusterCount>
+                <Read number="1">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>11222398</YieldQ30>
+                  <QualityScoreSum>433073446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>10676879</YieldQ30>
+                  <QualityScoreSum>417037477</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75746</ClusterCount>
+                <Read number="1">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>11222398</YieldQ30>
+                  <QualityScoreSum>433073446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>10676879</YieldQ30>
+                  <QualityScoreSum>417037477</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>79792</ClusterCount>
+                <Read number="1">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11790979</YieldQ30>
+                  <QualityScoreSum>455270562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11084517</YieldQ30>
+                  <QualityScoreSum>435091782</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>79792</ClusterCount>
+                <Read number="1">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11790979</YieldQ30>
+                  <QualityScoreSum>455270562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11084517</YieldQ30>
+                  <QualityScoreSum>435091782</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>84177</ClusterCount>
+                <Read number="1">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12450197</YieldQ30>
+                  <QualityScoreSum>481009897</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12021682</YieldQ30>
+                  <QualityScoreSum>468964715</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>84177</ClusterCount>
+                <Read number="1">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12450197</YieldQ30>
+                  <QualityScoreSum>481009897</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12021682</YieldQ30>
+                  <QualityScoreSum>468964715</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>80725</ClusterCount>
+                <Read number="1">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11882738</YieldQ30>
+                  <QualityScoreSum>458868391</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11301227</YieldQ30>
+                  <QualityScoreSum>442615221</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80725</ClusterCount>
+                <Read number="1">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11882738</YieldQ30>
+                  <QualityScoreSum>458868391</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11301227</YieldQ30>
+                  <QualityScoreSum>442615221</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>76467</ClusterCount>
+                <Read number="1">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>11327839</YieldQ30>
+                  <QualityScoreSum>437066390</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>10706833</YieldQ30>
+                  <QualityScoreSum>418863121</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>76467</ClusterCount>
+                <Read number="1">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>11327839</YieldQ30>
+                  <QualityScoreSum>437066390</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>10706833</YieldQ30>
+                  <QualityScoreSum>418863121</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>80728</ClusterCount>
+                <Read number="1">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11942748</YieldQ30>
+                  <QualityScoreSum>460807321</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11135240</YieldQ30>
+                  <QualityScoreSum>438225231</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80728</ClusterCount>
+                <Read number="1">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11942748</YieldQ30>
+                  <QualityScoreSum>460807321</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11135240</YieldQ30>
+                  <QualityScoreSum>438225231</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>84745</ClusterCount>
+                <Read number="1">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12534438</YieldQ30>
+                  <QualityScoreSum>484173446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12184316</YieldQ30>
+                  <QualityScoreSum>474252983</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>84745</ClusterCount>
+                <Read number="1">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12534438</YieldQ30>
+                  <QualityScoreSum>484173446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12796495</Yield>
+                  <YieldQ30>12184316</YieldQ30>
+                  <QualityScoreSum>474252983</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>80166</ClusterCount>
+                <Read number="1">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11792344</YieldQ30>
+                  <QualityScoreSum>455501218</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11337653</YieldQ30>
+                  <QualityScoreSum>442651520</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80166</ClusterCount>
+                <Read number="1">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11792344</YieldQ30>
+                  <QualityScoreSum>455501218</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12105066</Yield>
+                  <YieldQ30>11337653</YieldQ30>
+                  <QualityScoreSum>442651520</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>75746</ClusterCount>
+                <Read number="1">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>11222398</YieldQ30>
+                  <QualityScoreSum>433073446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>10676879</YieldQ30>
+                  <QualityScoreSum>417037477</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>75746</ClusterCount>
+                <Read number="1">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>11222398</YieldQ30>
+                  <QualityScoreSum>433073446</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11437646</Yield>
+                  <YieldQ30>10676879</YieldQ30>
+                  <QualityScoreSum>417037477</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>79792</ClusterCount>
+                <Read number="1">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11790979</YieldQ30>
+                  <QualityScoreSum>455270562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11084517</YieldQ30>
+                  <QualityScoreSum>435091782</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>79792</ClusterCount>
+                <Read number="1">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11790979</YieldQ30>
+                  <QualityScoreSum>455270562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12048592</Yield>
+                  <YieldQ30>11084517</YieldQ30>
+                  <QualityScoreSum>435091782</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>84177</ClusterCount>
+                <Read number="1">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12450197</YieldQ30>
+                  <QualityScoreSum>481009897</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12021682</YieldQ30>
+                  <QualityScoreSum>468964715</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>84177</ClusterCount>
+                <Read number="1">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12450197</YieldQ30>
+                  <QualityScoreSum>481009897</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12710727</Yield>
+                  <YieldQ30>12021682</YieldQ30>
+                  <QualityScoreSum>468964715</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>80725</ClusterCount>
+                <Read number="1">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11882738</YieldQ30>
+                  <QualityScoreSum>458868391</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11301227</YieldQ30>
+                  <QualityScoreSum>442615221</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80725</ClusterCount>
+                <Read number="1">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11882738</YieldQ30>
+                  <QualityScoreSum>458868391</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189475</Yield>
+                  <YieldQ30>11301227</YieldQ30>
+                  <QualityScoreSum>442615221</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>76467</ClusterCount>
+                <Read number="1">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>11327839</YieldQ30>
+                  <QualityScoreSum>437066390</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>10706833</YieldQ30>
+                  <QualityScoreSum>418863121</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>76467</ClusterCount>
+                <Read number="1">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>11327839</YieldQ30>
+                  <QualityScoreSum>437066390</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>11546517</Yield>
+                  <YieldQ30>10706833</YieldQ30>
+                  <QualityScoreSum>418863121</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>80728</ClusterCount>
+                <Read number="1">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11942748</YieldQ30>
+                  <QualityScoreSum>460807321</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11135240</YieldQ30>
+                  <QualityScoreSum>438225231</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>80728</ClusterCount>
+                <Read number="1">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11942748</YieldQ30>
+                  <QualityScoreSum>460807321</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>12189928</Yield>
+                  <YieldQ30>11135240</YieldQ30>
+                  <QualityScoreSum>438225231</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+      <Sample name="all">
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>331527</ClusterCount>
+                <Read number="1">
+                  <Yield>50060577</Yield>
+                  <YieldQ30>48996206</YieldQ30>
+                  <QualityScoreSum>1892633170</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>50060577</Yield>
+                  <YieldQ30>47587315</YieldQ30>
+                  <QualityScoreSum>1852387660</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>331527</ClusterCount>
+                <Read number="1">
+                  <Yield>50060577</Yield>
+                  <YieldQ30>48996206</YieldQ30>
+                  <QualityScoreSum>1892633170</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>50060577</Yield>
+                  <YieldQ30>47587315</YieldQ30>
+                  <QualityScoreSum>1852387660</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>313342</ClusterCount>
+                <Read number="1">
+                  <Yield>47314642</Yield>
+                  <YieldQ30>46067654</YieldQ30>
+                  <QualityScoreSum>1779373698</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47314642</Yield>
+                  <YieldQ30>44204311</YieldQ30>
+                  <QualityScoreSum>1726352006</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>313342</ClusterCount>
+                <Read number="1">
+                  <Yield>47314642</Yield>
+                  <YieldQ30>46067654</YieldQ30>
+                  <QualityScoreSum>1779373698</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47314642</Yield>
+                  <YieldQ30>44204311</YieldQ30>
+                  <QualityScoreSum>1726352006</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>295941</ClusterCount>
+                <Read number="1">
+                  <Yield>44687091</Yield>
+                  <YieldQ30>43831686</YieldQ30>
+                  <QualityScoreSum>1691201562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>44687091</Yield>
+                  <YieldQ30>41597004</YieldQ30>
+                  <QualityScoreSum>1625338892</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>295941</ClusterCount>
+                <Read number="1">
+                  <Yield>44687091</Yield>
+                  <YieldQ30>43831686</YieldQ30>
+                  <QualityScoreSum>1691201562</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>44687091</Yield>
+                  <YieldQ30>41597004</YieldQ30>
+                  <QualityScoreSum>1625338892</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>309515</ClusterCount>
+                <Read number="1">
+                  <Yield>46736765</Yield>
+                  <YieldQ30>45726212</YieldQ30>
+                  <QualityScoreSum>1765194916</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>46736765</Yield>
+                  <YieldQ30>42877872</YieldQ30>
+                  <QualityScoreSum>1683399779</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>309515</ClusterCount>
+                <Read number="1">
+                  <Yield>46736765</Yield>
+                  <YieldQ30>45726212</YieldQ30>
+                  <QualityScoreSum>1765194916</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>46736765</Yield>
+                  <YieldQ30>42877872</YieldQ30>
+                  <QualityScoreSum>1683399779</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>326285</ClusterCount>
+                <Read number="1">
+                  <Yield>49269035</Yield>
+                  <YieldQ30>48240792</YieldQ30>
+                  <QualityScoreSum>1863493916</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49269035</Yield>
+                  <YieldQ30>46517821</YieldQ30>
+                  <QualityScoreSum>1815009935</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>326285</ClusterCount>
+                <Read number="1">
+                  <Yield>49269035</Yield>
+                  <YieldQ30>48240792</YieldQ30>
+                  <QualityScoreSum>1863493916</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49269035</Yield>
+                  <YieldQ30>46517821</YieldQ30>
+                  <QualityScoreSum>1815009935</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>314257</ClusterCount>
+                <Read number="1">
+                  <Yield>47452807</Yield>
+                  <YieldQ30>46224832</YieldQ30>
+                  <QualityScoreSum>1785091033</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47452807</Yield>
+                  <YieldQ30>43893868</YieldQ30>
+                  <QualityScoreSum>1719677342</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>314257</ClusterCount>
+                <Read number="1">
+                  <Yield>47452807</Yield>
+                  <YieldQ30>46224832</YieldQ30>
+                  <QualityScoreSum>1785091033</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47452807</Yield>
+                  <YieldQ30>43893868</YieldQ30>
+                  <QualityScoreSum>1719677342</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>298478</ClusterCount>
+                <Read number="1">
+                  <Yield>45070178</Yield>
+                  <YieldQ30>44203228</YieldQ30>
+                  <QualityScoreSum>1705253298</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>45070178</Yield>
+                  <YieldQ30>41666317</YieldQ30>
+                  <QualityScoreSum>1630975169</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>298478</ClusterCount>
+                <Read number="1">
+                  <Yield>45070178</Yield>
+                  <YieldQ30>44203228</YieldQ30>
+                  <QualityScoreSum>1705253298</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>45070178</Yield>
+                  <YieldQ30>41666317</YieldQ30>
+                  <QualityScoreSum>1630975169</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>313075</ClusterCount>
+                <Read number="1">
+                  <Yield>47274325</Yield>
+                  <YieldQ30>46280240</YieldQ30>
+                  <QualityScoreSum>1785741628</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47274325</Yield>
+                  <YieldQ30>43030834</YieldQ30>
+                  <QualityScoreSum>1694655390</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>313075</ClusterCount>
+                <Read number="1">
+                  <Yield>47274325</Yield>
+                  <YieldQ30>46280240</YieldQ30>
+                  <QualityScoreSum>1785741628</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47274325</Yield>
+                  <YieldQ30>43030834</YieldQ30>
+                  <QualityScoreSum>1694655390</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+    </Project>
+    <Project name="all">
+      <Sample name="all">
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>357727</ClusterCount>
+                <Read number="1">
+                  <Yield>54016777</Yield>
+                  <YieldQ30>52236602</YieldQ30>
+                  <QualityScoreSum>2026716129</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>54016777</Yield>
+                  <YieldQ30>50701839</YieldQ30>
+                  <QualityScoreSum>1983675451</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>348163</ClusterCount>
+                <Read number="1">
+                  <Yield>52572613</Yield>
+                  <YieldQ30>51478607</YieldQ30>
+                  <QualityScoreSum>1988319564</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52572613</Yield>
+                  <YieldQ30>49976055</YieldQ30>
+                  <QualityScoreSum>1945621251</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>351327</ClusterCount>
+                <Read number="1">
+                  <Yield>53050377</Yield>
+                  <YieldQ30>50486985</YieldQ30>
+                  <QualityScoreSum>1965860257</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>53050377</Yield>
+                  <YieldQ30>48237096</YieldQ30>
+                  <QualityScoreSum>1904301176</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>329721</ClusterCount>
+                <Read number="1">
+                  <Yield>49787871</Yield>
+                  <YieldQ30>48503843</YieldQ30>
+                  <QualityScoreSum>1873232811</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49787871</Yield>
+                  <YieldQ30>46522100</YieldQ30>
+                  <QualityScoreSum>1817042710</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>350803</ClusterCount>
+                <Read number="1">
+                  <Yield>52971253</Yield>
+                  <YieldQ30>50405481</YieldQ30>
+                  <QualityScoreSum>1965525131</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52971253</Yield>
+                  <YieldQ30>47168655</YieldQ30>
+                  <QualityScoreSum>1875972025</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>312135</ClusterCount>
+                <Read number="1">
+                  <Yield>47132385</Yield>
+                  <YieldQ30>46247043</YieldQ30>
+                  <QualityScoreSum>1784242630</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47132385</Yield>
+                  <YieldQ30>43887680</YieldQ30>
+                  <QualityScoreSum>1714909409</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>345918</ClusterCount>
+                <Read number="1">
+                  <Yield>52233618</Yield>
+                  <YieldQ30>50142863</YieldQ30>
+                  <QualityScoreSum>1948498518</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52233618</Yield>
+                  <YieldQ30>46754893</YieldQ30>
+                  <QualityScoreSum>1854144113</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>325982</ClusterCount>
+                <Read number="1">
+                  <Yield>49223282</Yield>
+                  <YieldQ30>48186140</YieldQ30>
+                  <QualityScoreSum>1859893239</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49223282</Yield>
+                  <YieldQ30>45179230</YieldQ30>
+                  <QualityScoreSum>1773742949</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>351052</ClusterCount>
+                <Read number="1">
+                  <Yield>53008852</Yield>
+                  <YieldQ30>51331912</YieldQ30>
+                  <QualityScoreSum>1990952993</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>53008852</Yield>
+                  <YieldQ30>49458559</YieldQ30>
+                  <QualityScoreSum>1939084467</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>342476</ClusterCount>
+                <Read number="1">
+                  <Yield>51713876</Yield>
+                  <YieldQ30>50651432</YieldQ30>
+                  <QualityScoreSum>1956495222</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>51713876</Yield>
+                  <YieldQ30>48829758</YieldQ30>
+                  <QualityScoreSum>1905410087</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>348305</ClusterCount>
+                <Read number="1">
+                  <Yield>52594055</Yield>
+                  <YieldQ30>50150650</YieldQ30>
+                  <QualityScoreSum>1951599676</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52594055</Yield>
+                  <YieldQ30>47431798</YieldQ30>
+                  <QualityScoreSum>1877638333</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>329927</ClusterCount>
+                <Read number="1">
+                  <Yield>49818977</Yield>
+                  <YieldQ30>48553972</YieldQ30>
+                  <QualityScoreSum>1874839345</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49818977</Yield>
+                  <YieldQ30>46101359</YieldQ30>
+                  <QualityScoreSum>1806172059</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>349135</ClusterCount>
+                <Read number="1">
+                  <Yield>52719385</Yield>
+                  <YieldQ30>50543935</YieldQ30>
+                  <QualityScoreSum>1964390814</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52719385</Yield>
+                  <YieldQ30>46861616</YieldQ30>
+                  <QualityScoreSum>1863348764</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>314026</ClusterCount>
+                <Read number="1">
+                  <Yield>47417926</Yield>
+                  <YieldQ30>46522701</YieldQ30>
+                  <QualityScoreSum>1794578335</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>47417926</Yield>
+                  <YieldQ30>43853213</YieldQ30>
+                  <QualityScoreSum>1716627226</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>348920</ClusterCount>
+                <Read number="1">
+                  <Yield>52686920</Yield>
+                  <YieldQ30>50602142</YieldQ30>
+                  <QualityScoreSum>1965385198</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>52686920</Yield>
+                  <YieldQ30>46709969</YieldQ30>
+                  <QualityScoreSum>1859646238</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>329123</ClusterCount>
+                <Read number="1">
+                  <Yield>49697573</Yield>
+                  <YieldQ30>48674874</YieldQ30>
+                  <QualityScoreSum>1877947039</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>49697573</Yield>
+                  <YieldQ30>45261124</YieldQ30>
+                  <QualityScoreSum>1782396980</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+    </Project>
+    <Project name="default">
+      <Sample name="all">
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>26200</ClusterCount>
+                <Read number="1">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3240396</YieldQ30>
+                  <QualityScoreSum>134082959</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3114524</YieldQ30>
+                  <QualityScoreSum>131287791</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16636</ClusterCount>
+                <Read number="1">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2482401</YieldQ30>
+                  <QualityScoreSum>95686394</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2388740</YieldQ30>
+                  <QualityScoreSum>93233591</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>37985</ClusterCount>
+                <Read number="1">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4419331</YieldQ30>
+                  <QualityScoreSum>186486559</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4032785</YieldQ30>
+                  <QualityScoreSum>177949170</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16379</ClusterCount>
+                <Read number="1">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2436189</YieldQ30>
+                  <QualityScoreSum>93859113</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2317789</YieldQ30>
+                  <QualityScoreSum>90690704</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>54862</ClusterCount>
+                <Read number="1">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>6573795</YieldQ30>
+                  <QualityScoreSum>274323569</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>5571651</YieldQ30>
+                  <QualityScoreSum>250633133</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16194</ClusterCount>
+                <Read number="1">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2415357</YieldQ30>
+                  <QualityScoreSum>93041068</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2290676</YieldQ30>
+                  <QualityScoreSum>89570517</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>36403</ClusterCount>
+                <Read number="1">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>4416651</YieldQ30>
+                  <QualityScoreSum>183303602</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>3877021</YieldQ30>
+                  <QualityScoreSum>170744334</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16467</ClusterCount>
+                <Read number="1">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2459928</YieldQ30>
+                  <QualityScoreSum>94698323</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2301358</YieldQ30>
+                  <QualityScoreSum>90343170</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>24767</ClusterCount>
+                <Read number="1">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>3091120</YieldQ30>
+                  <QualityScoreSum>127459077</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>2940738</YieldQ30>
+                  <QualityScoreSum>124074532</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16191</ClusterCount>
+                <Read number="1">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2410640</YieldQ30>
+                  <QualityScoreSum>93001306</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2311937</YieldQ30>
+                  <QualityScoreSum>90400152</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>34048</ClusterCount>
+                <Read number="1">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3925818</YieldQ30>
+                  <QualityScoreSum>166508643</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3537930</YieldQ30>
+                  <QualityScoreSum>157960991</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15670</ClusterCount>
+                <Read number="1">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2329140</YieldQ30>
+                  <QualityScoreSum>89748312</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2207491</YieldQ30>
+                  <QualityScoreSum>86494717</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>50657</ClusterCount>
+                <Read number="1">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>6340707</YieldQ30>
+                  <QualityScoreSum>259137516</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>5195299</YieldQ30>
+                  <QualityScoreSum>232373595</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15548</ClusterCount>
+                <Read number="1">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2319473</YieldQ30>
+                  <QualityScoreSum>89325037</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2186896</YieldQ30>
+                  <QualityScoreSum>85652057</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>35845</ClusterCount>
+                <Read number="1">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>4321902</YieldQ30>
+                  <QualityScoreSum>179643570</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>3679135</YieldQ30>
+                  <QualityScoreSum>164990848</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16048</ClusterCount>
+                <Read number="1">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2394634</YieldQ30>
+                  <QualityScoreSum>92205411</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2230290</YieldQ30>
+                  <QualityScoreSum>87741590</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+      <Sample name="Undetermined">
+        <Barcode name="all">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>26200</ClusterCount>
+                <Read number="1">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3240396</YieldQ30>
+                  <QualityScoreSum>134082959</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3114524</YieldQ30>
+                  <QualityScoreSum>131287791</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16636</ClusterCount>
+                <Read number="1">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2482401</YieldQ30>
+                  <QualityScoreSum>95686394</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2388740</YieldQ30>
+                  <QualityScoreSum>93233591</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>37985</ClusterCount>
+                <Read number="1">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4419331</YieldQ30>
+                  <QualityScoreSum>186486559</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4032785</YieldQ30>
+                  <QualityScoreSum>177949170</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16379</ClusterCount>
+                <Read number="1">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2436189</YieldQ30>
+                  <QualityScoreSum>93859113</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2317789</YieldQ30>
+                  <QualityScoreSum>90690704</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>54862</ClusterCount>
+                <Read number="1">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>6573795</YieldQ30>
+                  <QualityScoreSum>274323569</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>5571651</YieldQ30>
+                  <QualityScoreSum>250633133</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16194</ClusterCount>
+                <Read number="1">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2415357</YieldQ30>
+                  <QualityScoreSum>93041068</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2290676</YieldQ30>
+                  <QualityScoreSum>89570517</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>36403</ClusterCount>
+                <Read number="1">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>4416651</YieldQ30>
+                  <QualityScoreSum>183303602</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>3877021</YieldQ30>
+                  <QualityScoreSum>170744334</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16467</ClusterCount>
+                <Read number="1">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2459928</YieldQ30>
+                  <QualityScoreSum>94698323</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2301358</YieldQ30>
+                  <QualityScoreSum>90343170</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>24767</ClusterCount>
+                <Read number="1">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>3091120</YieldQ30>
+                  <QualityScoreSum>127459077</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>2940738</YieldQ30>
+                  <QualityScoreSum>124074532</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16191</ClusterCount>
+                <Read number="1">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2410640</YieldQ30>
+                  <QualityScoreSum>93001306</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2311937</YieldQ30>
+                  <QualityScoreSum>90400152</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>34048</ClusterCount>
+                <Read number="1">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3925818</YieldQ30>
+                  <QualityScoreSum>166508643</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3537930</YieldQ30>
+                  <QualityScoreSum>157960991</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15670</ClusterCount>
+                <Read number="1">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2329140</YieldQ30>
+                  <QualityScoreSum>89748312</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2207491</YieldQ30>
+                  <QualityScoreSum>86494717</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>50657</ClusterCount>
+                <Read number="1">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>6340707</YieldQ30>
+                  <QualityScoreSum>259137516</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>5195299</YieldQ30>
+                  <QualityScoreSum>232373595</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15548</ClusterCount>
+                <Read number="1">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2319473</YieldQ30>
+                  <QualityScoreSum>89325037</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2186896</YieldQ30>
+                  <QualityScoreSum>85652057</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>35845</ClusterCount>
+                <Read number="1">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>4321902</YieldQ30>
+                  <QualityScoreSum>179643570</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>3679135</YieldQ30>
+                  <QualityScoreSum>164990848</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16048</ClusterCount>
+                <Read number="1">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2394634</YieldQ30>
+                  <QualityScoreSum>92205411</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2230290</YieldQ30>
+                  <QualityScoreSum>87741590</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+        <Barcode name="unknown">
+          <Lane number="1">
+            <Tile number="1101">
+              <Raw>
+                <ClusterCount>26200</ClusterCount>
+                <Read number="1">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3240396</YieldQ30>
+                  <QualityScoreSum>134082959</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3956200</Yield>
+                  <YieldQ30>3114524</YieldQ30>
+                  <QualityScoreSum>131287791</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16636</ClusterCount>
+                <Read number="1">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2482401</YieldQ30>
+                  <QualityScoreSum>95686394</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2512036</Yield>
+                  <YieldQ30>2388740</YieldQ30>
+                  <QualityScoreSum>93233591</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1102">
+              <Raw>
+                <ClusterCount>37985</ClusterCount>
+                <Read number="1">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4419331</YieldQ30>
+                  <QualityScoreSum>186486559</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5735735</Yield>
+                  <YieldQ30>4032785</YieldQ30>
+                  <QualityScoreSum>177949170</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16379</ClusterCount>
+                <Read number="1">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2436189</YieldQ30>
+                  <QualityScoreSum>93859113</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2473229</Yield>
+                  <YieldQ30>2317789</YieldQ30>
+                  <QualityScoreSum>90690704</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1103">
+              <Raw>
+                <ClusterCount>54862</ClusterCount>
+                <Read number="1">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>6573795</YieldQ30>
+                  <QualityScoreSum>274323569</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>8284162</Yield>
+                  <YieldQ30>5571651</YieldQ30>
+                  <QualityScoreSum>250633133</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16194</ClusterCount>
+                <Read number="1">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2415357</YieldQ30>
+                  <QualityScoreSum>93041068</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2445294</Yield>
+                  <YieldQ30>2290676</YieldQ30>
+                  <QualityScoreSum>89570517</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="1104">
+              <Raw>
+                <ClusterCount>36403</ClusterCount>
+                <Read number="1">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>4416651</YieldQ30>
+                  <QualityScoreSum>183303602</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5496853</Yield>
+                  <YieldQ30>3877021</YieldQ30>
+                  <QualityScoreSum>170744334</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16467</ClusterCount>
+                <Read number="1">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2459928</YieldQ30>
+                  <QualityScoreSum>94698323</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2486517</Yield>
+                  <YieldQ30>2301358</YieldQ30>
+                  <QualityScoreSum>90343170</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2101">
+              <Raw>
+                <ClusterCount>24767</ClusterCount>
+                <Read number="1">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>3091120</YieldQ30>
+                  <QualityScoreSum>127459077</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>3739817</Yield>
+                  <YieldQ30>2940738</YieldQ30>
+                  <QualityScoreSum>124074532</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16191</ClusterCount>
+                <Read number="1">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2410640</YieldQ30>
+                  <QualityScoreSum>93001306</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2444841</Yield>
+                  <YieldQ30>2311937</YieldQ30>
+                  <QualityScoreSum>90400152</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2102">
+              <Raw>
+                <ClusterCount>34048</ClusterCount>
+                <Read number="1">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3925818</YieldQ30>
+                  <QualityScoreSum>166508643</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5141248</Yield>
+                  <YieldQ30>3537930</YieldQ30>
+                  <QualityScoreSum>157960991</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15670</ClusterCount>
+                <Read number="1">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2329140</YieldQ30>
+                  <QualityScoreSum>89748312</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2366170</Yield>
+                  <YieldQ30>2207491</YieldQ30>
+                  <QualityScoreSum>86494717</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2103">
+              <Raw>
+                <ClusterCount>50657</ClusterCount>
+                <Read number="1">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>6340707</YieldQ30>
+                  <QualityScoreSum>259137516</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>7649207</Yield>
+                  <YieldQ30>5195299</YieldQ30>
+                  <QualityScoreSum>232373595</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>15548</ClusterCount>
+                <Read number="1">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2319473</YieldQ30>
+                  <QualityScoreSum>89325037</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2347748</Yield>
+                  <YieldQ30>2186896</YieldQ30>
+                  <QualityScoreSum>85652057</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+            <Tile number="2104">
+              <Raw>
+                <ClusterCount>35845</ClusterCount>
+                <Read number="1">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>4321902</YieldQ30>
+                  <QualityScoreSum>179643570</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>5412595</Yield>
+                  <YieldQ30>3679135</YieldQ30>
+                  <QualityScoreSum>164990848</QualityScoreSum>
+                </Read>
+              </Raw>
+              <Pf>
+                <ClusterCount>16048</ClusterCount>
+                <Read number="1">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2394634</YieldQ30>
+                  <QualityScoreSum>92205411</QualityScoreSum>
+                </Read>
+                <Read number="2">
+                  <Yield>2423248</Yield>
+                  <YieldQ30>2230290</YieldQ30>
+                  <QualityScoreSum>87741590</QualityScoreSum>
+                </Read>
+              </Pf>
+            </Tile>
+          </Lane>
+        </Barcode>
+      </Sample>
+    </Project>
+    <Lane number="1">
+      <TopUnknownBarcodes>
+        <Barcode count="5360" sequence="GTCCGC"/>
+        <Barcode count="4420" sequence="ATCACG"/>
+        <Barcode count="2900" sequence="GATGTA"/>
+        <Barcode count="1640" sequence="GCCATA"/>
+        <Barcode count="1580" sequence="GCAATA"/>
+        <Barcode count="1500" sequence="AAGTGA"/>
+        <Barcode count="1420" sequence="AGTGAT"/>
+        <Barcode count="1380" sequence="CGAGTA"/>
+        <Barcode count="1340" sequence="CATGTA"/>
+        <Barcode count="1200" sequence="ACGTGA"/>
+      </TopUnknownBarcodes>
+    </Lane>
+  </Flowcell>
+</Stats>

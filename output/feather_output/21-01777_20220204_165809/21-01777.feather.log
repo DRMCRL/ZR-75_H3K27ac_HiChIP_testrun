@@ -1,0 +1,44 @@
+Fri Feb  4 16:58:10 2022 starting mapping and filtering operation
+Fri Feb  4 16:58:10 2022 calling bwa for fastq/21-01777_R1.fastq.gz
+Fri Feb  4 16:58:42 2022 calling bwa for fastq/21-01777_R2.fastq.gz
+Fri Feb  4 16:59:17 2022 calling samtools sort for output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam storing in output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:20 2022 calling samtools sort for output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam storing in output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:22 2022 merging output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam.srtn and output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:33 2022 filtering and pairing reads
+Fri Feb  4 16:59:49 2022 paired bam file generated. Calling fixmate
+output/feather_output/21-01777_20220204_165809//21-01777.paired
+True
+Fri Feb  4 16:59:52 2022 sorting by coordinates.
+Fri Feb  4 16:59:55 2022 calling samtools markdup
+Fri Feb  4 16:59:57 2022 calling samtools flagstat on mapped file
+Fri Feb  4 16:59:58 2022 calling samtools flagstat on mapped and duplicate-removed file
+Fri Feb  4 16:59:59 2022 calling samtools sort for sorting by query names
+Fri Feb  4 17:00:03 2022 finishing filtering
+Fri Feb  4 17:00:03 2022 starting the splitting operation
+Fri Feb  4 17:00:03 2022 WARNING: no ChIP peaks file found to compute the on-chip ratio
+Fri Feb  4 17:00:03 2022 QC metrics will be computed from: output/feather_output/21-01777_20220204_165809/21-01777.paired.rmdup.flagstat
+Fri Feb  4 17:00:24 2022 generating long, intra-chromosomal bedpe file(s)
+Fri Feb  4 17:00:27 2022 writing to the combined bedpe file
+Fri Feb  4 17:00:30 2022 splitting completed
+Fri Feb  4 16:58:10 2022 starting mapping and filtering operation
+Fri Feb  4 16:58:10 2022 calling bwa for fastq/21-01777_R1.fastq.gz
+Fri Feb  4 16:58:42 2022 calling bwa for fastq/21-01777_R2.fastq.gz
+Fri Feb  4 16:59:17 2022 calling samtools sort for output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam storing in output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:20 2022 calling samtools sort for output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam storing in output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:22 2022 merging output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R1.fastq.gz.bwa.sam.srtn and output/feather_output/21-01777_20220204_165809//tempfiles/21-01777_R2.fastq.gz.bwa.sam.srtn
+Fri Feb  4 16:59:33 2022 filtering and pairing reads
+Fri Feb  4 16:59:49 2022 paired bam file generated. Calling fixmate
+output/feather_output/21-01777_20220204_165809//21-01777.paired
+True
+Fri Feb  4 16:59:52 2022 sorting by coordinates.
+Fri Feb  4 16:59:55 2022 calling samtools markdup
+Fri Feb  4 16:59:57 2022 calling samtools flagstat on mapped file
+Fri Feb  4 16:59:58 2022 calling samtools flagstat on mapped and duplicate-removed file
+Fri Feb  4 16:59:59 2022 calling samtools sort for sorting by query names
+Fri Feb  4 17:00:03 2022 finishing filtering
+Fri Feb  4 17:00:03 2022 starting the splitting operation
+Fri Feb  4 17:00:03 2022 WARNING: no ChIP peaks file found to compute the on-chip ratio
+Fri Feb  4 17:00:03 2022 QC metrics will be computed from: output/feather_output/21-01777_20220204_165809/21-01777.paired.rmdup.flagstat
+Fri Feb  4 17:00:24 2022 generating long, intra-chromosomal bedpe file(s)
+Fri Feb  4 17:00:27 2022 writing to the combined bedpe file
+Fri Feb  4 17:00:30 2022 splitting completed
