@@ -2,3 +2,5 @@
 *.bam.bai
 *.fastq
 *.fastq.gz
+*.hic.input
+.Rproj.user
