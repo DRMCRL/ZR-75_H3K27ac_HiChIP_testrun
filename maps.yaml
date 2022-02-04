@@ -1,0 +1,22 @@
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+  - r
+dependencies:
+  - bedtools
+  - bcftools
+  - bwa
+  - deeptools
+  - htslib
+  - pandas
+  - numpy
+  - pysam
+  - pybedtools
+  - macs2
+  - samtools
+  - r-base
+  - r-argparse
+  - r-vgam
+  - r-data.table
+  - r-mass

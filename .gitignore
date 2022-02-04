@@ -1,2 +1,4 @@
-.bam
-.bam.bai
+*.bam
+*.bam.bai
+*.fastq
+*.fastq.gz
