@@ -62,7 +62,7 @@ The output should be written to the folder caled `output`
 mkdir output
 ```
 
-## Run MAPS
+## Run MAPS Using Pre-Defined Peaks
 
 As instructed, the Arima modified script **needs to be copied** into the `bin` folder
 
@@ -73,9 +73,9 @@ cp /opt/MAPS/Arima_Genomics/Arima-MAPS_v2.0.sh /opt/MAPS/bin/
 ### 21-01774
 
 ```
-/opt/MAPS/bin/Arima-MAPS_v2.0.sh \
-  -C 1 \
-  -p "narrow" \
+/opt/MAPS/bin/Arima-MAPS_v2.0.sh   \
+  -C 0 \
+  -m "./ZR75_H3K27ac.bed" \
   -I fastq/21-01774 \
   -O output \
   -o "hg19" \
@@ -83,6 +83,7 @@ cp /opt/MAPS/Arima_Genomics/Arima-MAPS_v2.0.sh /opt/MAPS/bin/
   -t 8 \
   -f 0 
 ```
+
 
 The tempfiles can be deleted, although these directory names are timestamped so will change on every run
 
@@ -93,9 +94,9 @@ rm -rf output/feather_output/21-01774_20220204_164412/tempfiles
 ### 21-01775
 
 ```
-/opt/MAPS/bin/Arima-MAPS_v2.0.sh \
-  -C 1 \
-  -p "narrow" \
+/opt/MAPS/bin/Arima-MAPS_v2.0.sh   \
+  -C 0 \
+  -m "./ZR75_H3K27ac.bed" \
   -I fastq/21-01775 \
   -O output \
   -o "hg19" \
@@ -111,9 +112,9 @@ rm -rf output/feather_output/21-01774_20220204_164412/tempfiles
 ### 21-01776
 
 ```
-/opt/MAPS/bin/Arima-MAPS_v2.0.sh \
-  -C 1 \
-  -p "narrow" \
+/opt/MAPS/bin/Arima-MAPS_v2.0.sh   \
+  -C 0 \
+  -m "./ZR75_H3K27ac.bed" \
   -I fastq/21-01776 \
   -O output \
   -o "hg19" \
@@ -125,9 +126,9 @@ rm -rf output/feather_output/21-01774_20220204_164412/tempfiles
 ### 21-01777
 
 ```
-/opt/MAPS/bin/Arima-MAPS_v2.0.sh \
-  -C 1 \
-  -p "narrow" \
+/opt/MAPS/bin/Arima-MAPS_v2.0.sh   \
+  -C 0 \
+  -m "./ZR75_H3K27ac.bed" \
   -I fastq/21-01777 \
   -O output \
   -o "hg19" \
