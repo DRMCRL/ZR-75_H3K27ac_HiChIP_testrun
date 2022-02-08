@@ -2,5 +2,7 @@
 *.bam.bai
 *.fastq
 *.fastq.gz
+*.sam
 *.hic.input
 .Rproj.user
+*tempfiles*

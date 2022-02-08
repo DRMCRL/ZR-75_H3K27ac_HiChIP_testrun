@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Home</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/main/img/reproducible.png">
+<!-- Add a small amount of space between sections. -->
+<style type="text/css">
+div.section {
+  padding-top: 12px;
+}
+</style>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">ZR-75_H3K27ac_HiChIP_testrun</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="QC.html">QC</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Home</h1>
+
+</div>
+
+
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
+</button>
+</p>
+<div id="workflowr-report" class="collapse">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#summary">Summary</a>
+</li>
+<li>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
+</li>
+<li>
+<a data-toggle="tab" href="#versions">Past versions</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="summary" class="tab-pane fade in active">
+<p>
+<strong>Last updated:</strong> 2022-02-07
+</p>
+<p>
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
+</p>
+<p>
+<strong>Knit directory:</strong> <code>ZR-75_H3K27ac_HiChIP_testrun/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
+</p>
+<p>
+This reproducible <a href="https://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/workflowr/workflowr">workflowr</a> (version 1.7.0). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
+</p>
+<hr>
+</div>
+<div id="checks" class="tab-pane fade">
+<div id="workflowr-checks" class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
+</p>
+</div>
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomDRMCRLZR75H3K27acHiChIPtestruntreea17fa1fa23dc24999992e807217f61ca1caa3d84targetblanka17fa1fa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/tree/a17fa1fa23dc24999992e807217f61ca1caa3d84" target="_blank">a17fa1f</a> </a>
+</p>
+</div>
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomDRMCRLZR75H3K27acHiChIPtestruntreea17fa1fa23dc24999992e807217f61ca1caa3d84targetblanka17fa1fa" class="panel-collapse collapse">
+<div class="panel-body">
+<p>
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
+</p>
+<p>
+The results in this page were generated with repository version <a href="https://github.com/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/tree/a17fa1fa23dc24999992e807217f61ca1caa3d84" target="_blank">a17fa1f</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+</p>
+<p>
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
+</p>
+<pre><code>
+Ignored files:
+    Ignored:    .Rproj.user/
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.hic.input
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.bam
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.fixmated.bam
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.rmdup.bam
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.rmdup.bam.bai
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.srt.bam
+    Ignored:    output/feather_output/21-01776_20220204_165523/21-01776.paired.srtn.rmdup.bam
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.hic.input
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.bam
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.fixmated.bam
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.rmdup.bam
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.rmdup.bam.bai
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.srt.bam
+    Ignored:    output/feather_output/21-01777_20220204_165809/21-01777.paired.srtn.rmdup.bam
+
+Untracked files:
+    Untracked:  analysis/QC.Rmd
+    Untracked:  code/maps.yaml
+    Untracked:  data/GLL368_Arima-HiChIP_QC_Worksheet_A160170.xlsx
+    Untracked:  data/ZR75_H3K27ac.bed.gz
+    Untracked:  data/fastq/
+    Untracked:  output/MAPS_output/21-01774_20220207_135015/
+    Untracked:  output/MAPS_output/21-01775_20220207_142027/
+    Untracked:  output/feather_output/21-01774_20220207_135015/
+    Untracked:  output/feather_output/21-01775_20220207_142027/
+
+Unstaged changes:
+    Modified:   .gitignore
+    Deleted:    ZR75_H3K27ac.bed
+    Modified:   analysis/_site.yml
+    Deleted:    analysis/about.Rmd
+    Modified:   analysis/index.Rmd
+    Deleted:    analysis/license.Rmd
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01774/CGATGT/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01774/CGATGT/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01774/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01774/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01775/TGACCA/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01775/TGACCA/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01775/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01775/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01776/ACAGTG/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01776/ACAGTG/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01776/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01776/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01777/GCCAAT/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01777/GCCAAT/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01777/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/21-01777/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/all/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/SAGCQA0256_GeriLavenLaw_02122021/all/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/all/all/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/all/all/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/Undetermined/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/Undetermined/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/Undetermined/unknown/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/Undetermined/unknown/laneBarcode.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/all/all/lane.html
+    Deleted:    fastq/Reports/html/000000000-GB6P6/default/all/all/laneBarcode.html
+    Deleted:    fastq/Reports/html/Report.css
+    Deleted:    fastq/Reports/html/index.html
+    Deleted:    fastq/Reports/html/tree.html
+    Deleted:    fastq/Stats/AdapterTrimming.txt
+    Deleted:    fastq/Stats/ConversionStats.xml
+    Deleted:    fastq/Stats/DemultiplexingStats.xml
+    Deleted:    fastq/Stats/DemuxSummaryF1L1.txt
+    Deleted:    fastq/Stats/FastqSummaryF1L1.txt
+    Deleted:    fastq/Stats/Stats.json
+    Deleted:    fastq/fastq.md5
+    Deleted:    maps.yaml
+    Deleted:    output/MAPS_output/21-01774_20220204_164412/execution_script_copy
+    Deleted:    output/MAPS_output/21-01774_20220204_164412/maps_21-01774.maps
+    Modified:   output/MAPS_output/21-01774_current
+    Deleted:    output/MAPS_output/21-01775_20220204_165131/execution_script_copy
+    Deleted:    output/MAPS_output/21-01775_20220204_165131/maps_21-01775.maps
+    Modified:   output/MAPS_output/21-01775_current
+    Modified:   output/arcplot_and_metaplot/21-01774.coverage_matrix.tab.gz
+    Modified:   output/arcplot_and_metaplot/21-01774.heatmap.pdf
+    Modified:   output/arcplot_and_metaplot/21-01775.coverage_matrix.tab.gz
+    Modified:   output/arcplot_and_metaplot/21-01775.heatmap.pdf
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr1.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr1.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr10.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr10.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr11.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr11.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr12.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr12.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr13.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr13.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr14.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr14.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr15.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr15.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr16.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr16.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr17.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr17.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr18.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr18.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr19.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr19.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr2.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr2.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr20.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr20.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr21.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr21.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr22.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr22.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr3.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr3.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr4.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr4.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr5.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr5.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr6.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr6.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr7.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr7.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr8.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr8.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr9.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chr9.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chrX.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chrX.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chrY.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.chrY.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.feather.log
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.feather.qc
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.feather.qc.tsv
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.long.intra.bedpe
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.paired.fixmated.markdup.stats
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.paired.rmdup.flagstat
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.paired.srt.bam.flagstat
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.qc
+    Deleted:    output/feather_output/21-01774_20220204_164412/21-01774.shrt.vip.bed
+    Deleted:    output/feather_output/21-01774_20220204_164412/execution_script_copy
+    Modified:   output/feather_output/21-01774_current
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr1.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr1.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr10.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr10.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr11.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr11.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr12.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr12.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr13.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr13.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr14.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr14.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr15.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr15.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr16.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr16.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr17.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr17.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr18.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr18.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr19.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr19.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr2.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr2.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr20.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr20.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr21.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr21.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr22.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr22.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr3.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr3.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr4.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr4.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr5.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr5.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr6.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr6.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr7.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr7.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr8.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr8.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr9.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chr9.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chrX.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chrX.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.chrY.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.feather.log
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.feather.qc
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.feather.qc.tsv
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.long.intra.bedpe
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.paired.fixmated.markdup.stats
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.paired.rmdup.flagstat
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.paired.srt.bam.flagstat
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.qc
+    Deleted:    output/feather_output/21-01775_20220204_165131/21-01775.shrt.vip.bed
+    Deleted:    output/feather_output/21-01775_20220204_165131/execution_script_copy
+    Modified:   output/feather_output/21-01775_current
+
+</code></pre>
+<p>
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="versions" class="tab-pane fade">
+
+<p>
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+</p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/blob/a17fa1fa23dc24999992e807217f61ca1caa3d84/analysis/index.Rmd" target="_blank">a17fa1f</a>
+</td>
+<td>
+Steve Pederson
+</td>
+<td>
+2022-02-07
+</td>
+<td>
+Start workflowr project.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<p>Low yield run for 4 samples using H3K27ac IP in ZR-75-1 cells and the Arima Genomics HiC Kit.</p>
+<p>Samples prepared by Geraldine Laven-Law. Analysis performed by Stephen Pederson.</p>
+
+
+<!-- Adjust MathJax settings so that all math formulae are shown using
+TeX fonts only; see
+https://docs.mathjax.org/en/latest/web/configuration.html. This will make
+the presentation more consistent at the cost of the webpage sometimes
+taking slightly longer to load. Note that this only works because the
+footer is added to webpages before the MathJax javascript. -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

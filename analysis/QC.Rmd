@@ -1,0 +1,162 @@
+---
+title: "QC"
+author: "Steve Pederson"
+date: "2022-02-07"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+```{r opts, echo=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, warning = FALSE
+)
+```
+
+
+## Introduction
+
+```{r pkgs}
+library(tidyverse)
+library(readxl)
+library(rjson)
+library(pander)
+library(glue)
+```
+
+
+```{r options}
+panderOptions("big.mark", ",")
+theme_set(theme_bw())
+```
+
+
+```{r samples}
+samples <- fromJSON(file = here::here("data/fastq/Stats/Stats.json"))$ConversionResults %>% 
+  .[[1]] %>% 
+  .[["DemuxResults"]] %>% 
+  lapply(as_tibble) %>% 
+  bind_rows() %>% 
+  mutate(
+    Index = vapply(IndexMetrics, function(x) x$IndexSequence, character(1))
+  ) %>% 
+  distinct(
+    SampleId, Index, NumberReads, Yield
+  ) %>% 
+  left_join(
+    here::here("data/GLL368_Arima-HiChIP_QC_Worksheet_A160170.xlsx") %>%
+      read_excel(sheet = "Library Complexity QC", skip = 75) %>% 
+      mutate(
+        treat = str_extract(Sample, "E.") %>% str_trim(),
+        replicate = str_remove_all(Sample, ".+rep ")
+      ) %>% 
+      dplyr::select(Sample, Index = `i7 index sequence`, treat, replicate),
+    by = "Index"
+  ) %>% 
+  dplyr::select(Sample, everything())
+```
+
+```{r sample_table}
+samples %>% 
+  dplyr::select(Sample, SampleId, NumberReads, Index) %>% 
+  pander(
+    caption = "Library sizes for each sample"
+  )
+```
+
+# MAPS Pipeline {.tabset}
+
+```{r write_bash_scripts, eval=FALSE}
+bed_peaks <- here::here("data/ZR75_H3K27ac.bed")
+in_path <- here::here("data/fastq")
+out_path <- here::here("output")
+ref_path <- "/refs/gencode/grch37/GRCh37.primary_assembly.genome.fa"
+maps_path <- "/opt/MAPS/bin/Arima-MAPS_v2.0.sh"
+samples$SampleId %>% 
+  lapply(
+    function(x) {
+      glue(
+        "
+        #! /bin/bash
+        
+        ## This script will need to br run within the MAPS coda environment
+        
+        {maps_path} \\
+          -C 0 \\
+          -m {bed_peaks} \\
+          -I {in_path}/{x} \\
+          -O {out_path}  \\
+          -o 'hg19' \\
+          -b  {ref_path} \\
+          -t 8 \\
+          -f 0 > {out_path}/{x}.log
+          
+        "
+      ) %>% 
+        write_lines(
+          here::here("code", glue("{x}_maps.sh"))
+        )
+    }
+  )
+```
+
+The MAPS pipeline was run on individual samples.
+In two cases, multiple errors were returned and the expected output as specified [here](https://github.com/ijuric/MAPS/tree/master/Arima_Genomics#output-directorysample-name_arima_qc_shallowtxt) was not returned.
+However, the pipeline completed successfully for `r pander(here::here("output") %>% list.files(pattern = "shallow.txt") %>% str_remove_all("_Arima.+"))`
+
+```{r shallow_df}
+shallow_df <- here::here("output", glue("{samples$SampleId}_Arima_QC_shallow.txt")) %>% 
+  lapply(read_tsv) %>% 
+  bind_rows()
+```
+
+The recommended Target Raw PE Reads are.
+
+```{r target_tab}
+shallow_df %>% 
+  left_join(samples, by = c("Sample Name" = "SampleId")) %>% 
+  dplyr::select(`Sample Name`, treat, `Target Raw PE Reads`) %>% 
+  mutate(`Target Raw PE Reads` = `Target Raw PE Reads` / 1e6) %>% 
+  pander(
+    caption = "Target sequencing depth for each sample (millions of reads). This appears unrealistic."
+  )
+```
+
+
+```{r plot_percent, fig.cap = "% or interactions pairs in the categories provided by MAPS output"}
+shallow_df %>% 
+  left_join(samples, by = c("Sample Name" = "SampleId")) %>% 
+  dplyr::select(`Sample Name`, treat, starts_with("%"), -ends_with("Dups"), -contains("Mapped")) %>% 
+  pivot_longer(cols= starts_with("%")) %>% 
+  ggplot(aes(`Sample Name`, value, fill = treat)) +
+  geom_col() +
+  facet_wrap(~name)
+```
+
+
+## Peak Coverage
+
+```{r convert_heatmaps, eval = FALSE}
+samples$SampleId %>% 
+  lapply(
+    function(x) {
+      pdftools::pdf_convert(
+        pdf = here::here(glue("output/arcplot_and_metaplot/{x}.heatmap.pdf")), 
+        pages = 1, 
+        format = "png", 
+        filenames = here::here(glue("docs/assets/{x}.heatmap.png")), 
+        dpi = 150
+      )
+    }
+  )
+```
+
+
+Pre-defined H3K27ac peaks were supplied by combining consensus peaks across both E2 and E2+DHT from previous experiments.
+
+![`r samples$SampleId[[1]]`](`r file.path("assets", paste0(samples$SampleId[[1]], ".heatmap.png"))`){width=23% height=100%}
+![`r samples$SampleId[[2]]`](`r file.path("assets", paste0(samples$SampleId[[2]], ".heatmap.png"))`){width=23% height=100%}
+![`r samples$SampleId[[3]]`](`r file.path("assets", paste0(samples$SampleId[[3]], ".heatmap.png"))`){width=23% height=100%}
+![`r samples$SampleId[[4]]`](`r file.path("assets", paste0(samples$SampleId[[4]], ".heatmap.png"))`){width=23% height=100%}
+
+

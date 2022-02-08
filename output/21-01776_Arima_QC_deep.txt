@@ -1,0 +1,2 @@
+Sample Name	Raw PE Reads	Mapped Reads	% Mapped Reads	PCR Dups	% PCR Dups	Optical Dups	% Optical Dups	Mapped and De-duped	% Mapped and De-duped	Loops	LR FRIPS per Peak Bin per Million Deduped PE Reads	LR FRIPS per Peak Bin	INTRA pairs	% INTRA pairs	INTRA > 15kb pairs	% INTRA > 15kb pairs	INTER pairs	% INTER pairs	ChIP Peaks	Peak Bins	Short VIPs	Short VIPs in Peaks	% Short VIPs in Peaks	Enrichment
+21-01776	601342	1064298	177.0	255	0.0	481	0.0	1062826	176.7	0	1.33	1.4	490749	46.2	160857	15.1	40088	3.8	51651	53025	214959	92903	43.2	4.76

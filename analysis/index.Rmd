@@ -8,4 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Low yield run for 4 samples using H3K27ac IP in ZR-75-1 cells and the Arima Genomics HiC Kit.
+
+Samples prepared by Geraldine Laven-Law.
+Analysis performed by Stephen Pederson.

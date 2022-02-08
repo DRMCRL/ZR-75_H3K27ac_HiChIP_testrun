@@ -1,0 +1,552 @@
+User Defined Inputs:
+call_peaks=0
+feather=1
+maps=1
+fastq_dir_with_file_prefix=/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/fastq/21-01774
+outdir=/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output
+macs2_filepath=/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/ZR75_H3K27ac.bed
+organism=hg19
+bwa_index=/refs/gencode/grch37/GRCh37.primary_assembly.genome.fa
+threads=8
+patterned_flowcell=0
+plot=1
+generate_hic=1
+bin_size=5000
+binning_range=2000000
+fdr=2
+mapq=30
+length_cutoff=1000
+
+Tue Feb  8 16:47:44 2022 starting mapping and filtering operation
+Tue Feb  8 16:47:44 2022 calling bwa for /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/fastq/21-01774_R1.fastq.gz
+Tue Feb  8 16:48:24 2022 calling bwa for /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/fastq/21-01774_R2.fastq.gz
+Tue Feb  8 16:49:10 2022 calling samtools sort for /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R1.fastq.gz.bwa.sam storing in /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R1.fastq.gz.bwa.sam.srtn
+Tue Feb  8 16:49:13 2022 calling samtools sort for /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R2.fastq.gz.bwa.sam storing in /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R2.fastq.gz.bwa.sam.srtn
+Tue Feb  8 16:49:16 2022 merging /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R1.fastq.gz.bwa.sam.srtn and /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//tempfiles/21-01774_R2.fastq.gz.bwa.sam.srtn
+Tue Feb  8 16:49:28 2022 filtering and pairing reads
+Tue Feb  8 16:49:48 2022 paired bam file generated. Calling fixmate
+/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744//21-01774.paired
+True
+Tue Feb  8 16:49:51 2022 sorting by coordinates.
+Tue Feb  8 16:49:56 2022 calling samtools markdup
+Tue Feb  8 16:49:59 2022 calling samtools flagstat on mapped file
+Tue Feb  8 16:50:00 2022 calling samtools flagstat on mapped and duplicate-removed file
+Tue Feb  8 16:50:01 2022 calling samtools sort for sorting by query names
+Tue Feb  8 16:50:05 2022 finishing filtering
+Tue Feb  8 16:50:05 2022 starting the splitting operation
+Tue Feb  8 16:50:05 2022 QC metrics will be computed from: /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/ZR75_H3K27ac.bed and /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_20220208_164744/21-01774.paired.rmdup.flagstat
+Tue Feb  8 16:50:30 2022 generating long, intra-chromosomal bedpe file(s)
+Tue Feb  8 16:50:33 2022 writing to the combined bedpe file
+Tue Feb  8 16:50:36 2022 splitting completed
+21-01774 /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/ /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/data/ZR75_H3K27ac.bed /opt/MAPS/Arima_Genomics/genomic_features/hg19_F_GC_M_arima_5Kb_el.txt /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_current/ /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/feather_output/21-01774_current/ 5000 22 /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/
+first
+loading parameters file
+['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6', 'chr7', 'chr8', 'chr9', 'chr10', 'chr11', 'chr12', 'chr13', 'chr14', 'chr15', 'chr16', 'chr17', 'chr18', 'chr19', 'chr20', 'chr21', 'chr22']
+['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6', 'chr7', 'chr8', 'chr9', 'chr10', 'chr11', 'chr12', 'chr13', 'chr14', 'chr15', 'chr16', 'chr17', 'chr18', 'chr19', 'chr20', 'chr21', 'chr22']
+loading MACS2 peaks
+loading metadata file
+doing chromosome  chr1 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr2 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr3 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr4 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr5 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr6 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr7 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr8 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr9 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr10 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr11 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr12 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr13 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr14 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr15 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr16 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr17 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr18 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr19 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr20 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr21 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+doing chromosome  chr22 
+
+-- handling MACS2 peaks
+-- handling short.bed
+
+-- handling long.bedpe
+
+-- calculating values for maps.qc file
+
+-- handling metadata
+
+-- attaching genome features atributes to AND set
+-- attaching genome features atributes to XOR set
+--saving output
+
+-- saving .qc.maps file
+
+second
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/"
+[2] "21-01774.5k"                                                                                    
+[3] "5000"                                                                                           
+[4] "22"                                                                                             
+[5] "None"                                                                                           
+[6] "pospoisson"                                                                                     
+[1] "filter used (if any):"
+[1] "None"
+[1] "loading chromosome chr1 .and"
+[1] "loading chromosome chr1 .xor"
+[1] "loading chromosome chr2 .and"
+[1] "loading chromosome chr2 .xor"
+[1] "loading chromosome chr3 .and"
+[1] "loading chromosome chr3 .xor"
+[1] "loading chromosome chr4 .and"
+[1] "loading chromosome chr4 .xor"
+[1] "loading chromosome chr5 .and"
+[1] "loading chromosome chr5 .xor"
+[1] "loading chromosome chr6 .and"
+[1] "loading chromosome chr6 .xor"
+[1] "loading chromosome chr7 .and"
+[1] "loading chromosome chr7 .xor"
+[1] "loading chromosome chr8 .and"
+[1] "loading chromosome chr8 .xor"
+[1] "loading chromosome chr9 .and"
+[1] "loading chromosome chr9 .xor"
+[1] "loading chromosome chr10 .and"
+[1] "loading chromosome chr10 .xor"
+[1] "loading chromosome chr11 .and"
+[1] "loading chromosome chr11 .xor"
+[1] "loading chromosome chr12 .and"
+[1] "loading chromosome chr12 .xor"
+[1] "loading chromosome chr13 .and"
+[1] "loading chromosome chr13 .xor"
+[1] "loading chromosome chr14 .and"
+[1] "loading chromosome chr14 .xor"
+[1] "loading chromosome chr15 .and"
+[1] "loading chromosome chr15 .xor"
+[1] "loading chromosome chr16 .and"
+[1] "loading chromosome chr16 .xor"
+[1] "loading chromosome chr17 .and"
+[1] "loading chromosome chr17 .xor"
+[1] "loading chromosome chr18 .and"
+[1] "loading chromosome chr18 .xor"
+[1] "loading chromosome chr19 .and"
+[1] "loading chromosome chr19 .xor"
+[1] "loading chromosome chr20 .and"
+[1] "loading chromosome chr20 .xor"
+[1] "loading chromosome chr21 .and"
+[1] "loading chromosome chr21 .xor"
+[1] "loading chromosome chr22 .and"
+[1] "loading chromosome chr22 .xor"
+[1] "run 1 : regression on chromosome chr1"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr1.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr1.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr2"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr2.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr2.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr3"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr3.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr3.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr4"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr4.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr4.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr5"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr5.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr5.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr6"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr6.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr6.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr7"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr7.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr7.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr8"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr8.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr8.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr9"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr9.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr9.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr10"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr10.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr10.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr11"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr11.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr11.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr12"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr12.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr12.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr13"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr13.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr13.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr14"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr14.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr14.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr15"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr15.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr15.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr16"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr16.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr16.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr17"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr17.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr17.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr18"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr18.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr18.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr19"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr19.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr19.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr20"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr20.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr20.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr21"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr21.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr21.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "run 1 : regression on chromosome chr22"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr22.21-01774.5k.and.MAPS2_pospoisson"
+[1] "/home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/MAPS_output/21-01774_20220208_164744/reg_raw.chr22.21-01774.5k.xor.MAPS2_pospoisson"
+[1] "finding peaks"
+[1] "ERROR MAPS_regression_and_peak_caller.r: 0 bin pairs with count >= 12 observed/expected ratio >= 2 and -log10(fdr) > 2"
+third
+
+Post-processing by Arima Genomics ...
+Generating arcplot files for WashU Epigenome Browser ...
+No bedpe loop file found, skip generating arcplot files! 
+
+Generating metaplot ...
+Creating index for the bam file ...
+Generating coverage bigwig file from sequencing reads ...
+Generating coverage matrix file ...
+Generating heatmap image ...
+Calculating enrichment score of the metaplot ...
+4.81
+Finished making metaplot and heatmap images! 
+
+pairs_raw=690614
+pairs_uniq_mapped_MAPQ_ge_30=1239532
+pairs_uniq_mapped_MAPQ_ge_30_p=179.5
+pairs_mapped_deduped=1238006
+pairs_mapped_deduped_p=179.3
+pairs_all_duplicates=763
+pairs_all_duplicates_p=0.1
+pairs_opt_duplicates=477
+pairs_opt_duplicates_p=0.0
+pairs_PCR_duplicates=286
+pairs_PCR_duplicates_p=0.0
+pairs_intra=578754
+pairs_intra_p=46.7
+pairs_inter=39629
+pairs_inter_p=3.2
+pairs_intra_ge_15kb=165691
+pairs_intra_ge_15kb_p=13.4
+total_peaks=51651
+bins_with_peaks=53025
+short_VIPs=278087
+short_VIPs_with_peaks=123012
+short_VIPs_with_peaks_p=44.2
+AND=41724
+XOR=68366
+NOT=151281
+ALL_Arima=158170
+AND_Arima=28892
+XOR_Arima=56977
+NOT_Arima=72301
+FRIPs=85869
+FRIPs_p=54.3
+FRIPs_per_peak_bins=1.6
+FRIPs_per_peak_bins_per_million_deduped=1.31
+target_raw_pairs=1040000000
+
+MAPS and Arima QC pipeline finished successfully!
+Please download the QC result from: /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/21-01774_Arima_QC_deep.txt /home/steveped/DRMCRL/ZR-75_H3K27ac_HiChIP_testrun/output/21-01774_Arima_QC_shallow.txt and then copy the contents to the corresponding tables in the QC worksheet.
