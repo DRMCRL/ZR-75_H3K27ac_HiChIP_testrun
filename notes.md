@@ -33,15 +33,15 @@ Three files are produced in this folder, and these are rewritten after every run
 Despite the lack for formal documentation, it is understood that `feather` is the preprocessing step and detection of significant interactions for each MACS2 peak.
 In this step AND and XOR interactions are fit separately using the model
 
-log(µ<sub>ij</sub>) = β~0~ + β~1~.FL~ij~ + β~2~.GC~ij~ + β~3~.MS~ij~ + β~4~.IP~ij~
+log(µ<sub>ij</sub>) = β<sub>0</sub> + β<sub>1</sub>.FL<sub>ij</sub> + β<sub>2</sub>.GC<sub>ij</sub> + β<sub>3</sub>.MS<sub>ij</sub> + β<sub>4</sub>.IP<sub>ij</sub>
 
-Under this model µ~ij~ is the mean of a zero-truncated Poisson model for the number of interactions between bins i and j.
+Under this model µ<sub>ij</sub> is the mean of a zero-truncated Poisson model for the number of interactions between bins i and j.
 Remaining covariates are:
 
-- FL~ij~ = f~i*f~j~ (fragment length), although why this is estimated in a bin-pair specific manner is not clear
-- GC = gc~i~*gc~j~ (GC content) across bins i & j
-- MS = ms~i~*ms~j~ (Mappability Score) (not sure how this is calculated)
-- IP (ChIP Enrichment level)
+- FL<sub>ij</sub> = f<sub>i</sub>*f<sub>j</sub> (fragment length), although why this is estimated in a bin-pair specific manner is not clear
+- GC<sub>ij</sub> = gc<sub>i</sub>*gc<sub>j</sub> (GC content) across bins i & j
+- MS<sub>ij</sub> = ms<sub>i</sub>*ms<sub>j</sub> (Mappability Score) (not sure how this is calculated)
+- IP<sub>ij</sub> (ChIP Enrichment level)
 
 This is the model specified by *HPRep: Quantifying Reproducibility in HiChIP and
 PLAC-Seq Datasets* and this differs from that specified by [MAPS: Model-based analysis of long-range chromatin interactions from PLAC-seq and HiChIP experiments](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006982#sec028) as the genomic distance term is excluded.
