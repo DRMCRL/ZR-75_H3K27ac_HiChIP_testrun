@@ -45,7 +45,7 @@ Remaining covariates are:
 
 This is the model specified by *HPRep: Quantifying Reproducibility in HiChIP and
 PLAC-Seq Datasets* and this differs from that specified by [MAPS: Model-based analysis of long-range chromatin interactions from PLAC-seq and HiChIP experiments](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006982#sec028) as the genomic distance term is excluded.
-**Reading the source code is avdvised to determine which model is being fit.**
+**Reading the source code is advised to determine which model is being fit.**
 
 ### Subdirectories
 
