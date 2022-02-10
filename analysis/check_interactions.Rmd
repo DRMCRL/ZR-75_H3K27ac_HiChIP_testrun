@@ -1,0 +1,15 @@
+---
+title: "check_interactions"
+author: "Steve Pederson"
+date: "2022-02-09"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+
+```
+
