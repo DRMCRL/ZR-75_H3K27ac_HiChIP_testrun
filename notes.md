@@ -33,7 +33,7 @@ Three files are produced in this folder, and these are rewritten after every run
 Despite the lack for formal documentation, it is understood that `feather` is the preprocessing step and detection of significant interactions for each MACS2 peak.
 In this step AND and XOR interactions are fit separately using the model
 
-log(µ~ij~) = β~0~ + β~1~.FL~ij~ + β~2~.GC~ij~ + β~3~.MS~ij~ + β~4~.IP~ij~
+log(µ<sub>ij</sub>) = β~0~ + β~1~.FL~ij~ + β~2~.GC~ij~ + β~3~.MS~ij~ + β~4~.IP~ij~
 
 Under this model µ~ij~ is the mean of a zero-truncated Poisson model for the number of interactions between bins i and j.
 Remaining covariates are:
